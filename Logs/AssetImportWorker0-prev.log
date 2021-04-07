@@ -1,0 +1,191 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 16179 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Projects\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects/VRSimulation1.1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60076
+Successfully changed project path to: D:/Projects/VRSimulation1.1
+D:/Projects/VRSimulation1.1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 63.73 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 1.05 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path D:/Projects/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/VRSimulation1.1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6192
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/Projects/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Projects/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Projects/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Projects/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001078 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.56 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.084 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.32 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.9 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3544.
+Total: 2.862700 ms (FindLiveObjects: 0.673700 ms CreateObjectMapping: 0.206100 ms MarkObjects: 1.921400 ms  DeleteObjects: 0.060400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_Course Library/Source Files/Models/Ball_Cricket.fbx
+  artifactKey: Guid(dda8659e0174c6048852838fad15ddfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Ball_Cricket.fbx using Guid(dda8659e0174c6048852838fad15ddfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ecf48512b68643e156fe05cdb96b39') in 0.760448 seconds
+  Import took 0.765099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Speakers/Speaker_RecordPlayer_Gray.prefab
+  artifactKey: Guid(210506ff450b7c448922566ff5280b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Speakers/Speaker_RecordPlayer_Gray.prefab using Guid(210506ff450b7c448922566ff5280b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b972478506e23be4c4ff2c4fea4dd82e') in 0.058351 seconds
+  Import took 0.062728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/_Course Library/Source Files/Models/Ball_Pingpong.fbx
+  artifactKey: Guid(3237f124fd401c146981f5411d5e48cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Ball_Pingpong.fbx using Guid(3237f124fd401c146981f5411d5e48cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985c6b557ce840b20b66445e4f190e66') in 0.044396 seconds
+  Import took 0.049013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/_Course Library/Source Files/Models/Ball_Tennis_B.fbx
+  artifactKey: Guid(479d30e27e09d5d40ad7bc3e3c719170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Ball_Tennis_B.fbx using Guid(479d30e27e09d5d40ad7bc3e3c719170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dff74b3c5b37f215d5c701b45bc85c') in 0.038460 seconds
+  Import took 0.043522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/_Course Library/Source Files/Models/Art_Painting_1.fbx
+  artifactKey: Guid(532e7074e2e914c4190b79a6fd2a2669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Art_Painting_1.fbx using Guid(532e7074e2e914c4190b79a6fd2a2669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8e3395f4f3944f9bc275f56e7f2177') in 0.039856 seconds
+  Import took 0.044133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/_Course Library/Source Files/Models/Ball_Baseball.fbx
+  artifactKey: Guid(40e4cec1d817dec42843bf5cff0ef4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Ball_Baseball.fbx using Guid(40e4cec1d817dec42843bf5cff0ef4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17094756adffe404b9038ae5399f3b35') in 0.046596 seconds
+  Import took 0.050871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/_Course Library/Source Files/Models/Ball_Tennis.fbx
+  artifactKey: Guid(d6b5780a9f86954498a6a8eb9db39df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Ball_Tennis.fbx using Guid(d6b5780a9f86954498a6a8eb9db39df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab41a574aa9177e122dc4fc73097d6c5') in 0.037099 seconds
+  Import took 0.041244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/_Course Library/Source Files/Models/Drawers_Modern.fbx
+  artifactKey: Guid(c42ddb965267b0349a4cb7eafde0e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Drawers_Modern.fbx using Guid(c42ddb965267b0349a4cb7eafde0e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852d19e9690bb225ce0747826521fb79') in 0.072870 seconds
+  Import took 0.077132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/_Course Library/Source Files/Models/Art_Painting_5.fbx
+  artifactKey: Guid(d6abe7a25983f9c4ea3bb6f1a0ae0d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Art_Painting_5.fbx using Guid(d6abe7a25983f9c4ea3bb6f1a0ae0d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c2cbc96b8ed4fb767c09223aff695d') in 0.033546 seconds
+  Import took 0.037600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/_Course Library/Source Files/Models/Art_Painting_3.fbx
+  artifactKey: Guid(2b2238b54f5ddf94f80c61ab243c13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Art_Painting_3.fbx using Guid(2b2238b54f5ddf94f80c61ab243c13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2089a10d9cd8e67ad1bb723fca21c3a9') in 0.086753 seconds
+  Import took 0.090820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/_Course Library/Source Files/Models/Drawers_Modern_B.fbx
+  artifactKey: Guid(f44c411c6b8ee99419d0fa31df799040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Drawers_Modern_B.fbx using Guid(f44c411c6b8ee99419d0fa31df799040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8226079f5fa2bc836366dcb83f034829') in 0.071308 seconds
+  Import took 0.075629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/_Course Library/Source Files/Models/Art_Painting_4.fbx
+  artifactKey: Guid(1dff19bba321fd541a14ab1bee60a697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Art_Painting_4.fbx using Guid(1dff19bba321fd541a14ab1bee60a697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc9bab0628f7caefe5f3b8978a01d91') in 0.047221 seconds
+  Import took 0.051342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/_Course Library/Source Files/Models/Art_Painting_2.fbx
+  artifactKey: Guid(9477c868375f7134ab79b2306d22dc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Art_Painting_2.fbx using Guid(9477c868375f7134ab79b2306d22dc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147f6450129aa26b1e02023405f8dd95') in 0.041075 seconds
+  Import took 0.045296 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
