@@ -7,6 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class SwitchHexNut : XRBaseInteractable
 {
     private GameObject nut;
+    private GameObject nut1;
 
     void Awake()
     {
@@ -14,6 +15,7 @@ public class SwitchHexNut : XRBaseInteractable
         //socket.onSelectEntered.AddListener(HatCheck);
 
         nut = GameObject.FindGameObjectWithTag("HexNut");
+        nut1 = GameObject.FindGameObjectWithTag("HexNut1");
         Debug.Log("socket from Awake: " + socket);
     }
 
@@ -23,6 +25,12 @@ public class SwitchHexNut : XRBaseInteractable
         {   
             Debug.Log("Destroy hex nut!");
             Destroy(nut);
+
+        }
+        if (obj.gameObject.CompareTag("HexNut1"))
+        {
+            Debug.Log("Destroy hex nut!");
+            Destroy(nut1);
 
         }
     }
